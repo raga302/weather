@@ -59,7 +59,7 @@ function Content() {
       let url = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${submitInput}&appid=4f26ed3e9233596a61a59e470eb5e9a2`);
       let data = await url.json();
       let newTemp = Math.round(data.main.temp - 273.15) + '° C';
-      let aqiUrl = await fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=4f26ed3e9233596a61a59e470eb5e9a2`)
+      let aqiUrl = await fetch(`https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=4f26ed3e9233596a61a59e470eb5e9a2`)
       let aqiData = await aqiUrl.json();
       setTemprature(newTemp);
       setCityName(data.name);
