@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/raga302/weather.git/static/css/main.2e7fc12a.css",
-    "main.js": "/raga302/weather.git/static/js/main.3a83f259.js",
-    "static/media/cloud.png": "/raga302/weather.git/static/media/cloud.a1905bbfdffc9305554f.png",
-    "static/media/snow.png": "/raga302/weather.git/static/media/snow.841f7fddb55c7aba2de1.png",
-    "static/media/404.png": "/raga302/weather.git/static/media/404.a5dd8a41fc4587a417ec.png",
-    "static/media/haze.png": "/raga302/weather.git/static/media/haze.2da1f66c8b49736bf613.png",
-    "static/media/rain.png": "/raga302/weather.git/static/media/rain.7b962ef62dcd161b4cb6.png",
-    "static/media/clear.png": "/raga302/weather.git/static/media/clear.1eb7082e2e6ec7f2d01e.png",
-    "static/media/mist.png": "/raga302/weather.git/static/media/mist.cd991e65f5de32eefe95.png",
-    "static/media/smoke2.webp": "/raga302/weather.git/static/media/smoke2.496adb4b012f89b9c420.webp",
-    "index.html": "/raga302/weather.git/index.html",
-    "main.2e7fc12a.css.map": "/raga302/weather.git/static/css/main.2e7fc12a.css.map",
-    "main.3a83f259.js.map": "/raga302/weather.git/static/js/main.3a83f259.js.map"
+    "main.css": "/weather/static/css/main.2e7fc12a.css",
+    "main.js": "/weather/static/js/main.3592d1b8.js",
+    "static/media/cloud.png": "/weather/static/media/cloud.a1905bbfdffc9305554f.png",
+    "static/media/snow.png": "/weather/static/media/snow.841f7fddb55c7aba2de1.png",
+    "static/media/404.png": "/weather/static/media/404.a5dd8a41fc4587a417ec.png",
+    "static/media/haze.png": "/weather/static/media/haze.2da1f66c8b49736bf613.png",
+    "static/media/rain.png": "/weather/static/media/rain.7b962ef62dcd161b4cb6.png",
+    "static/media/clear.png": "/weather/static/media/clear.1eb7082e2e6ec7f2d01e.png",
+    "static/media/mist.png": "/weather/static/media/mist.cd991e65f5de32eefe95.png",
+    "static/media/smoke2.webp": "/weather/static/media/smoke2.496adb4b012f89b9c420.webp",
+    "index.html": "/weather/index.html",
+    "main.2e7fc12a.css.map": "/weather/static/css/main.2e7fc12a.css.map",
+    "main.3592d1b8.js.map": "/weather/static/js/main.3592d1b8.js.map"
   },
   "entrypoints": [
     "static/css/main.2e7fc12a.css",
-    "static/js/main.3a83f259.js"
+    "static/js/main.3592d1b8.js"
   ]
 }
