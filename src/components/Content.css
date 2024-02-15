@@ -1,0 +1,326 @@
+.box1 {
+  position: absolute;
+  top: 0;
+}
+
+.inputBox {
+  width: 50vw;
+  height: 4vw;
+  margin-right: 2vw;
+  padding: 1vw;
+  border-radius: 0.5vw;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 1.5vw;
+
+}
+
+.submitBtn {
+  width: 9vw;
+  height: 4vw;
+  border-radius: 0.5rem;
+  padding: 0.2vw;
+  background-color: rgb(96, 16, 146);
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 2.5vw;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.submitBtn:hover {
+  background-color: rgb(82, 17, 123);
+
+}
+
+.box2 {
+  width: 80vw;
+  height: 40vw;
+  background-color: transparent;
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 3vw;
+  border-radius: 2.3vw;
+  box-shadow: inset 5px 5px 10px rgb(213, 210, 206),
+    inset -5px -5px 10px rgb(207, 204, 199);
+  position: absolute;
+  top: 8vw;
+}
+
+.firstDiv {
+
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.para {
+  font-size: 5vw;
+  color: rgb(246, 209, 0);
+  filter: drop-shadow(0px 2px 5px #0a0a0a);
+}
+
+.secondDiv {
+  
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  filter: drop-shadow(0px 2px 5px #000000);
+
+
+}
+
+.secondDiv img {
+  width: 100%;
+  height: auto;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.aqiText {
+  color: rgb(246, 246, 78);
+  filter: drop-shadow(0px 1px 1px #0a0a0a);
+  margin-top: 1vw;
+  font-size: 2.5vw;
+  background-color: rgba(32, 32, 32, 0.21);
+  padding: 0vw 1vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.thirdDiv {
+ 
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.para2 {
+
+  color: rgb(255, 248, 123);
+  border-radius: 0.2rem;
+  font-size: 2.5vw;
+  font-weight: bold;
+  filter: drop-shadow(0px 2px 5px #0a0a0a);
+
+}
+
+
+@media (max-width: 992px) {
+  .box2{
+    margin-top: 10vw !important;
+  }
+  .box1{
+    margin-top: 6vw !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .box2{
+    margin-top: 10vw !important;
+  }
+  .box1{
+    margin-top: 6vw !important;
+  }
+  .inputBox{
+    width: 60vw !important;
+    height: 5vw !important;
+    font-size: 2.3vw !important;
+  }
+  .submitBtn{
+    width: 10vw !important;
+    height: 5vw !important;
+    font-size: 2.5vw !important;
+    padding: 0 2vw !important;
+  }
+  .aqiText{
+    font-size: 2.7vw !important;
+  }
+}
+
+
+
+@media (max-width: 568px) {
+  .box2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 70vw !important;
+    margin-top: 8vw !important;
+  }
+  .inputBox{
+    width: 50vw !important;
+    height: 7vw !important;
+    font-size: 2.3vw !important;
+    margin-top: -4vw !important;
+  }
+  .submitBtn{
+    width: 13vw !important;
+    height: 7vw !important;
+    font-size: 3vw !important;
+    padding: 0 2vw !important;
+    margin-top: -4vw !important;
+  }
+  .secondDiv{
+    
+    padding-bottom: 1vw !important;
+  }
+  .thirdDiv{
+    margin-top: 3vw !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+    
+  }
+  .firstDiv p{
+    font-size: 7vw !important;
+  }
+  .thirdDiv div{
+    background-color: #fff !important;
+    color: #000000 !important;
+    margin-block: 2vw !important;
+    padding: 2vw !important;
+  }
+  
+}
+
+
+@media (max-width: 468px) {
+  .box2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90vw !important;
+    margin-top: 13vw !important;
+  }
+  .inputBox{
+    width: 70vw !important;
+    height: 8vw !important;
+    font-size: 3vw !important;
+   
+  }
+  .submitBtn{
+    width: 14vw !important;
+    height: 8vw !important;
+    font-size: 3.5vw !important;
+    padding: 0 2vw !important;
+    
+  }
+  .secondDiv{
+    
+    padding-bottom: 1vw !important;
+  }
+  .thirdDiv{
+    margin-top: 3vw !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+    
+  }
+  .firstDiv p{
+    font-size: 9vw !important;
+    font-weight: bold !important;
+  }
+  .thirdDiv div{
+    background-color: #fff !important;
+    color: #000000 !important;
+    margin-block: 2vw !important;
+    padding: 2vw !important;
+    font-size: 4vw !important;
+  }
+  .secondDiv .aqiText{
+    font-size: 4vw !important;
+    margin-top: 2vw !important;
+  }
+  .secondDiv img{
+    margin-bottom: 3vw !important;
+  }
+  
+}
+
+
+@media (max-width: 410px) {
+  .box2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90vw !important;
+    margin-top: 22vw !important;
+  }
+  .inputBox{
+    width: 80vw !important;
+    height: 10vw !important;
+    font-size: 4vw !important;
+   padding-inline: 2vw !important;
+   margin-top: 3vw !important;
+  }
+  .submitBtn{
+    width: 20vw !important;
+    height: 10vw !important;
+    font-size: 3.5vw !important;
+    padding: 0 2vw !important;
+    margin-top: 3vw !important;
+    
+  }
+  .secondDiv{
+    margin-top: -2vw !important;
+    padding-bottom: 1vw !important;
+  }
+  .thirdDiv{
+    margin-top: 5vw !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+    
+  }
+  .firstDiv p{
+    font-size: 9vw !important;
+    font-weight: bold ;
+    border-bottom: 1px solid #fff;
+    border-radius: 1vw;
+  }
+  .firstDiv{
+    display: flex !;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+  }
+  .thirdDiv div{
+    background-color: #fff !important;
+    color: #000000 !important;
+    margin-block: 2vw !important;
+    padding: 2vw !important;
+    font-size: 4vw !important;
+  }
+  .secondDiv .aqiText{
+    font-size: 8vw !important;
+    padding-inline: 2vw !important;
+    margin-top: 2vw !important;
+  }
+  .secondDiv img{
+    margin-bottom: 3vw !important;
+  }
+  
+}

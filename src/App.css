@@ -1,0 +1,22 @@
+.container-fluid{
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.bg_Image{
+ 
+width: 100vw;
+height: 100vh;
+position: relative;
+object-fit: cover;
+}
+
+
+@media (max-width: 600px) {
+  .main {
+    background: url("https://images.pexels.com/photos/3617500/pexels-photo-3617500.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+}
+
+
